@@ -1,0 +1,449 @@
+/* GENERAL SETTİNG */
+
+@font-face{
+    font-family:'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf');
+    
+}
+
+.body{
+    background: white;
+    color:#3f3f3f;
+    font: 14px / 28px arial;
+    font-family: 'Raleway';
+    
+}
+.h1{
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+        
+}
+
+
+.h3{
+    font-size: 16px;
+    color: #789427;
+    transition: all 3s ease;
+    }
+
+
+
+/* Ana sayfa  header */
+
+.header{
+    background-color: #f5f5f5;
+}
+
+
+.header .logo{ /* logo alanındakı nesnelerı saga yasladık   */
+    margin-right: auto;   
+}
+
+.header .logo img{ /* logonun boyunu belırledık   */ 
+    display: block;
+    height: 120px;  
+}
+
+
+.header .menu li{ /* menuyu soldan sıralamaya baslar   */ 
+    float: left;
+        
+}
+.header .menu li a{ /*  menuye bırbırınden ayrılma ve bosluk verme yerı  */ 
+    padding: 24px 17px;    
+    display: block; /* yukardan asagıdan  calısmasını saglar 17 px lık bosluk ıcın   */ 
+    text-decoration: none; /*alt cızgıyı sıler */ 
+    letter-spacing: 2px; /*  harflerı bırbırınden ayırır  */ 
+    color: black;
+    transition: all 2s ease;
+    
+    
+}
+
+.header .menu li:hover a {
+    background: #789427;
+    color: white;
+    
+}
+
+
+/* ana sayfa slogan alanı  */
+
+
+
+.mainSection{
+    background-color: #789427;
+    border-bottom: 3px solid #000;
+    text-align: center;
+    height: 250px;
+    color:yellow;
+    display: inline-block;
+    line-height: 10px;
+    font-size: 16px;
+    padding: 5px 20px;
+    /*text-transform: uppercase;*/    
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.sloganClass {
+    border-bottom: 6px solid #789427;
+    height: 120px;
+    display: inline-block;
+    line-height: 16px;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+
+}
+
+.sloganClass h1{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 3px;
+
+}
+.sloganClass p{
+    font-size: 16px;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 6px solid #789427;
+
+}
+
+.kayanMedyaSectionClass{
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+
+.kayanMedyaClass h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+
+
+.kayanMedyaClass {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+/*resim kısmının kayması ıcın */
+
+.kayanMedyaResimClass{
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    left: 0;   
+    animation: slideAnimation 30s infinite;
+
+}
+
+
+.kayanMedyaResimClass img{
+    
+    display: flex;
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+@keyframes slideAnimation {
+    0%{ left: -25%; }
+    25%{ left: 25%; }
+    50%{ left: 50%;}
+    75%{ left: 25%;}
+    100%{ left: -25%;}
+    
+}
+
+/*video kısmının kayması ıcın */
+
+.kayanMedyaVideoClass{
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    left: 0;   
+    animation: slideAnimationvideo 40s infinite;
+
+}
+
+
+.kayanMedyaVideoClass img{
+    
+    display: flex;
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+@keyframes slideAnimationvideo {
+    0%{ left: 0; }
+    25%{ left: -25%; }
+    50%{ left: -50%;}
+    75%{ left: -25%;}
+    100%{ left: 0;}
+    
+}
+
+
+
+/* etkinliklerimiz  SETTİNG (clasların basına nokta koy)*/
+/* etkinliklerimiz  SETTİNG (clasların basına nokta koy)*/
+/* etkinliklerimiz  SETTİNG (clasların basına nokta koy)*/
+
+
+
+
+
+
+.youtubeTitleClass{
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+
+
+
+
+
+/* hakkımızda  SETTİNG (clasların basına nokta koy)*/
+
+
+.hakkimizdaClass .hakkimizdaTitleClass p, h2 {
+    text-align: center;
+}
+
+
+
+.hakkimizdaClass .hakkimizdaTitleClass h2 {
+    background-color: #789427;
+}
+
+
+.hakkimizdaClass .hakkimizdaTitleClass p:hover{
+    background: #789427;
+    color: white;
+    
+}
+
+
+
+
+/* yazılar   SETTİNG (clasların basına nokta koy)*/
+
+.hakkimizdaTitleClass {
+    text-align: center;
+}
+
+yazilarClass h2,p{
+    text-align: center;
+}
+
+
+.yazilarClass h2 {
+    background-color: #789427;
+}
+
+
+.yazilarClass p:hover{
+    background: #789427;
+    color: white;
+    
+}
+
+
+.yazilarClass h2:hover {
+    background-color: #f5f5f5;
+    color: #789427;
+}
+
+
+
+
+.iletisimClass{
+    text-align: center;
+    
+}
+
+.gmailLink{
+    color: blue;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* GRID SETTİNG (clasların basına nokta koy)*/
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;    
+    
+}
+
+
+.featuresBody .container {
+    justify-content: space-between;
+}
+
+
+.col3{
+    flex-grow: 1;
+    width: 33.33%;
+    
+}
+
+
+
+.engineBody .container {
+    justify-content: space-between;
+}
+col2{
+    flex-grow: 1;
+    width: 50%;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* foooooooooooooooooooooooooter alanına dokunma sımdılık  */
+footer{
+     background: #789427;
+    text-align: center;
+}
+
+.footerItem{
+    padding: 20px;
+}
+
+.footerItem img{
+    height: 50px;
+    opacity: .5;    
+}
+
+
+footer h3{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+footer .fa{
+    font-size: 30px;
+    color: #95a5a6;
+    line-height: 50px;
+    transition: .5s ease;
+}
+
+
+footer .fa:hover{
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+    transition: .3s ease;
+}
+
+footer p{
+    color: #95a5a6;
+    line-height: 20px;
+}
+footer p:hover {
+    color: white;
+    transition: .3s ease;
+}
+
+
+.footerLinks a{
+    text-decoration: none;
+    color: #95a5a6;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+
+.footerLinks a:hover{
+    color: white;
+    text-decoration: underline;
+    
+    
+}
+.socialLinks li {
+    display: inline-block;
+    width: 50px; 
+    height: 50px;
+    
+}
+
+/*                                       */
+
+
+
