@@ -330,6 +330,17 @@ col2{
 
 
 
+.ziyaretciClass{
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #789427;    
+}
+
+
+.ziyaretciClass:hover{
+    background-color: #789427;
+    color: white;    
+}
 
 
 
